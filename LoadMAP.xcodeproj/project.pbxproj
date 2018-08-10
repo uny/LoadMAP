@@ -13,6 +13,11 @@
 		AA113CE1211E43B8002F5D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA113CE0211E43B8002F5D92 /* Assets.xcassets */; };
 		AA113CE4211E43B8002F5D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA113CE2211E43B8002F5D92 /* LaunchScreen.storyboard */; };
 		AA113CEF211E43B9002F5D92 /* LoadMAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA113CEE211E43B9002F5D92 /* LoadMAPUITests.swift */; };
+		AA397D0F211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */; };
+		AA397D16211E46BF008D9B8F /* LoadMAPKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D15211E46BF008D9B8F /* LoadMAPKitTests.swift */; };
+		AA397D18211E46BF008D9B8F /* LoadMAPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA397D08211E46BF008D9B8F /* LoadMAPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA397D1B211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */; };
+		AA397D1C211E46BF008D9B8F /* LoadMAPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +28,42 @@
 			remoteGlobalIDString = AA113CD5211E43B4002F5D92;
 			remoteInfo = LoadMAP;
 		};
+		AA397D10211E46BF008D9B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA113CCE211E43B4002F5D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA397D05211E46BE008D9B8F;
+			remoteInfo = LoadMAPKit;
+		};
+		AA397D12211E46BF008D9B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA113CCE211E43B4002F5D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA113CD5211E43B4002F5D92;
+			remoteInfo = LoadMAP;
+		};
+		AA397D19211E46BF008D9B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA113CCE211E43B4002F5D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA397D05211E46BE008D9B8F;
+			remoteInfo = LoadMAPKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA397D20211E46BF008D9B8F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA397D1C211E46BF008D9B8F /* LoadMAPKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AA113CD6211E43B4002F5D92 /* LoadMAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadMAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +76,12 @@
 		AA113CEA211E43B9002F5D92 /* LoadMAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadMAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA113CEE211E43B9002F5D92 /* LoadMAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMAPUITests.swift; sourceTree = "<group>"; };
 		AA113CF0211E43B9002F5D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoadMAPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA397D08211E46BF008D9B8F /* LoadMAPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadMAPKit.h; sourceTree = "<group>"; };
+		AA397D09211E46BF008D9B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA397D0E211E46BF008D9B8F /* LoadMAPKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadMAPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA397D15211E46BF008D9B8F /* LoadMAPKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMAPKitTests.swift; sourceTree = "<group>"; };
+		AA397D17211E46BF008D9B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA397D1B211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +97,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D02211E46BE008D9B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D0B211E46BF008D9B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA397D0F211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +123,8 @@
 			children = (
 				AA113CD8211E43B4002F5D92 /* LoadMAP */,
 				AA113CED211E43B9002F5D92 /* LoadMAPUITests */,
+				AA397D07211E46BF008D9B8F /* LoadMAPKit */,
+				AA397D14211E46BF008D9B8F /* LoadMAPKitTests */,
 				AA113CD7211E43B4002F5D92 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +134,8 @@
 			children = (
 				AA113CD6211E43B4002F5D92 /* LoadMAP.app */,
 				AA113CEA211E43B9002F5D92 /* LoadMAPUITests.xctest */,
+				AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */,
+				AA397D0E211E46BF008D9B8F /* LoadMAPKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +162,36 @@
 			path = LoadMAPUITests;
 			sourceTree = "<group>";
 		};
+		AA397D07211E46BF008D9B8F /* LoadMAPKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D08211E46BF008D9B8F /* LoadMAPKit.h */,
+				AA397D09211E46BF008D9B8F /* Info.plist */,
+			);
+			path = LoadMAPKit;
+			sourceTree = "<group>";
+		};
+		AA397D14211E46BF008D9B8F /* LoadMAPKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D15211E46BF008D9B8F /* LoadMAPKitTests.swift */,
+				AA397D17211E46BF008D9B8F /* Info.plist */,
+			);
+			path = LoadMAPKitTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA397D03211E46BE008D9B8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA397D18211E46BF008D9B8F /* LoadMAPKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AA113CD5211E43B4002F5D92 /* LoadMAP */ = {
@@ -106,10 +201,12 @@
 				AA113CD2211E43B4002F5D92 /* Sources */,
 				AA113CD3211E43B4002F5D92 /* Frameworks */,
 				AA113CD4211E43B4002F5D92 /* Resources */,
+				AA397D20211E46BF008D9B8F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AA397D1A211E46BF008D9B8F /* PBXTargetDependency */,
 			);
 			name = LoadMAP;
 			productName = LoadMAP;
@@ -134,6 +231,43 @@
 			productReference = AA113CEA211E43B9002F5D92 /* LoadMAPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AA397D05211E46BE008D9B8F /* LoadMAPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA397D1D211E46BF008D9B8F /* Build configuration list for PBXNativeTarget "LoadMAPKit" */;
+			buildPhases = (
+				AA397D01211E46BE008D9B8F /* Sources */,
+				AA397D02211E46BE008D9B8F /* Frameworks */,
+				AA397D03211E46BE008D9B8F /* Headers */,
+				AA397D04211E46BE008D9B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoadMAPKit;
+			productName = LoadMAPKit;
+			productReference = AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA397D0D211E46BF008D9B8F /* LoadMAPKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA397D21211E46BF008D9B8F /* Build configuration list for PBXNativeTarget "LoadMAPKitTests" */;
+			buildPhases = (
+				AA397D0A211E46BF008D9B8F /* Sources */,
+				AA397D0B211E46BF008D9B8F /* Frameworks */,
+				AA397D0C211E46BF008D9B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA397D11211E46BF008D9B8F /* PBXTargetDependency */,
+				AA397D13211E46BF008D9B8F /* PBXTargetDependency */,
+			);
+			name = LoadMAPKitTests;
+			productName = LoadMAPKitTests;
+			productReference = AA397D0E211E46BF008D9B8F /* LoadMAPKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +283,12 @@
 					AA113CE9211E43B9002F5D92 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = AA113CD5211E43B4002F5D92;
+					};
+					AA397D05211E46BE008D9B8F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AA397D0D211E46BF008D9B8F = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
@@ -167,6 +307,8 @@
 			targets = (
 				AA113CD5211E43B4002F5D92 /* LoadMAP */,
 				AA113CE9211E43B9002F5D92 /* LoadMAPUITests */,
+				AA397D05211E46BE008D9B8F /* LoadMAPKit */,
+				AA397D0D211E46BF008D9B8F /* LoadMAPKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +325,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AA113CE8211E43B9002F5D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D04211E46BE008D9B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D0C211E46BF008D9B8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,6 +365,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA397D01211E46BE008D9B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D0A211E46BF008D9B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA397D16211E46BF008D9B8F /* LoadMAPKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -216,6 +387,21 @@
 			isa = PBXTargetDependency;
 			target = AA113CD5211E43B4002F5D92 /* LoadMAP */;
 			targetProxy = AA113CEB211E43B9002F5D92 /* PBXContainerItemProxy */;
+		};
+		AA397D11211E46BF008D9B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA397D05211E46BE008D9B8F /* LoadMAPKit */;
+			targetProxy = AA397D10211E46BF008D9B8F /* PBXContainerItemProxy */;
+		};
+		AA397D13211E46BF008D9B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA113CD5211E43B4002F5D92 /* LoadMAP */;
+			targetProxy = AA397D12211E46BF008D9B8F /* PBXContainerItemProxy */;
+		};
+		AA397D1A211E46BF008D9B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA397D05211E46BE008D9B8F /* LoadMAPKit */;
+			targetProxy = AA397D19211E46BF008D9B8F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -425,6 +611,96 @@
 			};
 			name = Release;
 		};
+		AA397D1E211E46BF008D9B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LoadMAPKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ynagai.LoadMAPKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA397D1F211E46BF008D9B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LoadMAPKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ynagai.LoadMAPKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA397D22211E46BF008D9B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoadMAPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ynagai.LoadMAPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA397D23211E46BF008D9B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoadMAPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ynagai.LoadMAPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,6 +727,24 @@
 			buildConfigurations = (
 				AA113CF7211E43B9002F5D92 /* Debug */,
 				AA113CF8211E43B9002F5D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA397D1D211E46BF008D9B8F /* Build configuration list for PBXNativeTarget "LoadMAPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA397D1E211E46BF008D9B8F /* Debug */,
+				AA397D1F211E46BF008D9B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA397D21211E46BF008D9B8F /* Build configuration list for PBXNativeTarget "LoadMAPKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA397D22211E46BF008D9B8F /* Debug */,
+				AA397D23211E46BF008D9B8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
