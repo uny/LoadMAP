@@ -8,11 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		AA113CDA211E43B4002F5D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA113CD9211E43B4002F5D92 /* AppDelegate.swift */; };
-		AA113CDC211E43B4002F5D92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA113CDB211E43B4002F5D92 /* ViewController.swift */; };
 		AA113CDF211E43B4002F5D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA113CDD211E43B4002F5D92 /* Main.storyboard */; };
 		AA113CE1211E43B8002F5D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA113CE0211E43B8002F5D92 /* Assets.xcassets */; };
 		AA113CE4211E43B8002F5D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA113CE2211E43B8002F5D92 /* LaunchScreen.storyboard */; };
 		AA113CEF211E43B9002F5D92 /* LoadMAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA113CEE211E43B9002F5D92 /* LoadMAPUITests.swift */; };
+		AA397D0F211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */; };
+		AA397D16211E46BF008D9B8F /* LoadMAPKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D15211E46BF008D9B8F /* LoadMAPKitTests.swift */; };
+		AA397D18211E46BF008D9B8F /* LoadMAPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA397D08211E46BF008D9B8F /* LoadMAPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA397D1B211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */; };
+		AA397D1C211E46BF008D9B8F /* LoadMAPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA397D32211E5986008D9B8F /* Appliable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D2C211E5490008D9B8F /* Appliable.swift */; };
+		AA397D33211E598D008D9B8F /* MapToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D30211E55BE008D9B8F /* MapToolbar.swift */; };
+		AA397D34211E5991008D9B8F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D29211E47FB008D9B8F /* MapViewController.swift */; };
+		AA397D3A211E7179008D9B8F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D36211E7179008D9B8F /* RxSwift.framework */; };
+		AA397D3B211E7179008D9B8F /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D37211E7179008D9B8F /* SnapKit.framework */; };
+		AA397D3C211E7179008D9B8F /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D38211E7179008D9B8F /* RealmSwift.framework */; };
+		AA397D3D211E7179008D9B8F /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D39211E7179008D9B8F /* Realm.framework */; };
+		AA397D43211E740D008D9B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA397D42211E740D008D9B8F /* Assets.xcassets */; };
+		AA397D47211E75E3008D9B8F /* TargetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D46211E75E3008D9B8F /* TargetListViewController.swift */; };
+		AA397D51211E7AEB008D9B8F /* TargetEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D50211E7AEB008D9B8F /* TargetEntity.swift */; };
+		AA397D56211E7D96008D9B8F /* TargetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D55211E7D96008D9B8F /* TargetRepository.swift */; };
+		AA397D58211E7E35008D9B8F /* TargetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D57211E7E35008D9B8F /* TargetListViewModel.swift */; };
+		AA397D5A211E7FD9008D9B8F /* ApplicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D59211E7FD9008D9B8F /* ApplicationError.swift */; };
+		AA397D60211E9699008D9B8F /* TargetListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D5F211E9699008D9B8F /* TargetListViewModelTest.swift */; };
+		AA397D62211E980E008D9B8F /* Realm.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D39211E7179008D9B8F /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA397D63211E980E008D9B8F /* RealmSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D38211E7179008D9B8F /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA397D64211E980E008D9B8F /* RxSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D36211E7179008D9B8F /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA397D65211E980E008D9B8F /* SnapKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D37211E7179008D9B8F /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA397D68211E9819008D9B8F /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D66211E9818008D9B8F /* RxTest.framework */; };
+		AA397D69211E9819008D9B8F /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D67211E9818008D9B8F /* RxBlocking.framework */; };
+		AA397D6E211E9CF3008D9B8F /* RxTest.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D66211E9818008D9B8F /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA397D6F211E9D0A008D9B8F /* RxBlocking.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D67211E9818008D9B8F /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +49,62 @@
 			remoteGlobalIDString = AA113CD5211E43B4002F5D92;
 			remoteInfo = LoadMAP;
 		};
+		AA397D10211E46BF008D9B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA113CCE211E43B4002F5D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA397D05211E46BE008D9B8F;
+			remoteInfo = LoadMAPKit;
+		};
+		AA397D12211E46BF008D9B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA113CCE211E43B4002F5D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA113CD5211E43B4002F5D92;
+			remoteInfo = LoadMAP;
+		};
+		AA397D19211E46BF008D9B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA113CCE211E43B4002F5D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA397D05211E46BE008D9B8F;
+			remoteInfo = LoadMAPKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA397D20211E46BF008D9B8F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA397D1C211E46BF008D9B8F /* LoadMAPKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D61211E978B008D9B8F /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA397D62211E980E008D9B8F /* Realm.framework in Copy Frameworks */,
+				AA397D63211E980E008D9B8F /* RealmSwift.framework in Copy Frameworks */,
+				AA397D6F211E9D0A008D9B8F /* RxBlocking.framework in Copy Frameworks */,
+				AA397D64211E980E008D9B8F /* RxSwift.framework in Copy Frameworks */,
+				AA397D6E211E9CF3008D9B8F /* RxTest.framework in Copy Frameworks */,
+				AA397D65211E980E008D9B8F /* SnapKit.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AA113CD6211E43B4002F5D92 /* LoadMAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadMAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA113CD9211E43B4002F5D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA113CDB211E43B4002F5D92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA113CDE211E43B4002F5D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA113CE0211E43B8002F5D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA113CE3211E43B8002F5D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +112,28 @@
 		AA113CEA211E43B9002F5D92 /* LoadMAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadMAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA113CEE211E43B9002F5D92 /* LoadMAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMAPUITests.swift; sourceTree = "<group>"; };
 		AA113CF0211E43B9002F5D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoadMAPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA397D08211E46BF008D9B8F /* LoadMAPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadMAPKit.h; sourceTree = "<group>"; };
+		AA397D09211E46BF008D9B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA397D0E211E46BF008D9B8F /* LoadMAPKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadMAPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA397D15211E46BF008D9B8F /* LoadMAPKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMAPKitTests.swift; sourceTree = "<group>"; };
+		AA397D17211E46BF008D9B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA397D29211E47FB008D9B8F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AA397D2C211E5490008D9B8F /* Appliable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appliable.swift; sourceTree = "<group>"; };
+		AA397D30211E55BE008D9B8F /* MapToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapToolbar.swift; sourceTree = "<group>"; };
+		AA397D36211E7179008D9B8F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		AA397D37211E7179008D9B8F /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		AA397D38211E7179008D9B8F /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		AA397D39211E7179008D9B8F /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		AA397D42211E740D008D9B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA397D46211E75E3008D9B8F /* TargetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListViewController.swift; sourceTree = "<group>"; };
+		AA397D50211E7AEB008D9B8F /* TargetEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetEntity.swift; sourceTree = "<group>"; };
+		AA397D55211E7D96008D9B8F /* TargetRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetRepository.swift; sourceTree = "<group>"; };
+		AA397D57211E7E35008D9B8F /* TargetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListViewModel.swift; sourceTree = "<group>"; };
+		AA397D59211E7FD9008D9B8F /* ApplicationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationError.swift; sourceTree = "<group>"; };
+		AA397D5F211E9699008D9B8F /* TargetListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListViewModelTest.swift; sourceTree = "<group>"; };
+		AA397D66211E9818008D9B8F /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		AA397D67211E9818008D9B8F /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA397D1B211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +149,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D02211E46BE008D9B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA397D3A211E7179008D9B8F /* RxSwift.framework in Frameworks */,
+				AA397D3B211E7179008D9B8F /* SnapKit.framework in Frameworks */,
+				AA397D3D211E7179008D9B8F /* Realm.framework in Frameworks */,
+				AA397D3C211E7179008D9B8F /* RealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D0B211E46BF008D9B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA397D0F211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */,
+				AA397D68211E9819008D9B8F /* RxTest.framework in Frameworks */,
+				AA397D69211E9819008D9B8F /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +181,10 @@
 			children = (
 				AA113CD8211E43B4002F5D92 /* LoadMAP */,
 				AA113CED211E43B9002F5D92 /* LoadMAPUITests */,
+				AA397D07211E46BF008D9B8F /* LoadMAPKit */,
+				AA397D14211E46BF008D9B8F /* LoadMAPKitTests */,
 				AA113CD7211E43B4002F5D92 /* Products */,
+				AA397D35211E7179008D9B8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +193,8 @@
 			children = (
 				AA113CD6211E43B4002F5D92 /* LoadMAP.app */,
 				AA113CEA211E43B9002F5D92 /* LoadMAPUITests.xctest */,
+				AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */,
+				AA397D0E211E46BF008D9B8F /* LoadMAPKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				AA113CD9211E43B4002F5D92 /* AppDelegate.swift */,
-				AA113CDB211E43B4002F5D92 /* ViewController.swift */,
 				AA113CDD211E43B4002F5D92 /* Main.storyboard */,
 				AA113CE0211E43B8002F5D92 /* Assets.xcassets */,
 				AA113CE2211E43B8002F5D92 /* LaunchScreen.storyboard */,
@@ -96,7 +220,211 @@
 			path = LoadMAPUITests;
 			sourceTree = "<group>";
 		};
+		AA397D07211E46BF008D9B8F /* LoadMAPKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D41211E73FF008D9B8F /* Resources */,
+				AA397D40211E73F2008D9B8F /* Sources */,
+				AA397D08211E46BF008D9B8F /* LoadMAPKit.h */,
+				AA397D09211E46BF008D9B8F /* Info.plist */,
+			);
+			path = LoadMAPKit;
+			sourceTree = "<group>";
+		};
+		AA397D14211E46BF008D9B8F /* LoadMAPKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D6A211E9AD1008D9B8F /* TestHelpers */,
+				AA397D5C211E966A008D9B8F /* Presentation */,
+				AA397D15211E46BF008D9B8F /* LoadMAPKitTests.swift */,
+				AA397D17211E46BF008D9B8F /* Info.plist */,
+			);
+			path = LoadMAPKitTests;
+			sourceTree = "<group>";
+		};
+		AA397D24211E46E1008D9B8F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D2B211E5485008D9B8F /* Protocols */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AA397D25211E46E9008D9B8F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D2E211E55A7008D9B8F /* Atoms */,
+				AA397D2F211E55AC008D9B8F /* Molecules */,
+				AA397D28211E47F2008D9B8F /* Pages */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AA397D26211E46F0008D9B8F /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D4C211E7AA3008D9B8F /* Entities */,
+				AA397D54211E7D89008D9B8F /* Repositories */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		AA397D27211E46F9008D9B8F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D5B211E7FDE008D9B8F /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AA397D28211E47F2008D9B8F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D49211E7879008D9B8F /* TargetList */,
+				AA397D48211E786E008D9B8F /* Map */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		AA397D2B211E5485008D9B8F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D2C211E5490008D9B8F /* Appliable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AA397D2E211E55A7008D9B8F /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		AA397D2F211E55AC008D9B8F /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D30211E55BE008D9B8F /* MapToolbar.swift */,
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		AA397D35211E7179008D9B8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D39211E7179008D9B8F /* Realm.framework */,
+				AA397D38211E7179008D9B8F /* RealmSwift.framework */,
+				AA397D67211E9818008D9B8F /* RxBlocking.framework */,
+				AA397D36211E7179008D9B8F /* RxSwift.framework */,
+				AA397D66211E9818008D9B8F /* RxTest.framework */,
+				AA397D37211E7179008D9B8F /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA397D40211E73F2008D9B8F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D26211E46F0008D9B8F /* Infrastructure */,
+				AA397D27211E46F9008D9B8F /* Domain */,
+				AA397D24211E46E1008D9B8F /* Application */,
+				AA397D25211E46E9008D9B8F /* Presentation */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AA397D41211E73FF008D9B8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D42211E740D008D9B8F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA397D48211E786E008D9B8F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D29211E47FB008D9B8F /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		AA397D49211E7879008D9B8F /* TargetList */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D46211E75E3008D9B8F /* TargetListViewController.swift */,
+				AA397D57211E7E35008D9B8F /* TargetListViewModel.swift */,
+			);
+			path = TargetList;
+			sourceTree = "<group>";
+		};
+		AA397D4C211E7AA3008D9B8F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D50211E7AEB008D9B8F /* TargetEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AA397D54211E7D89008D9B8F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D55211E7D96008D9B8F /* TargetRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AA397D5B211E7FDE008D9B8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D59211E7FD9008D9B8F /* ApplicationError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA397D5C211E966A008D9B8F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D5D211E9677008D9B8F /* Pages */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AA397D5D211E9677008D9B8F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D5E211E967D008D9B8F /* TargetList */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		AA397D5E211E967D008D9B8F /* TargetList */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D5F211E9699008D9B8F /* TargetListViewModelTest.swift */,
+			);
+			path = TargetList;
+			sourceTree = "<group>";
+		};
+		AA397D6A211E9AD1008D9B8F /* TestHelpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestHelpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA397D03211E46BE008D9B8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA397D18211E46BF008D9B8F /* LoadMAPKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AA113CD5211E43B4002F5D92 /* LoadMAP */ = {
@@ -106,10 +434,12 @@
 				AA113CD2211E43B4002F5D92 /* Sources */,
 				AA113CD3211E43B4002F5D92 /* Frameworks */,
 				AA113CD4211E43B4002F5D92 /* Resources */,
+				AA397D20211E46BF008D9B8F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AA397D1A211E46BF008D9B8F /* PBXTargetDependency */,
 			);
 			name = LoadMAP;
 			productName = LoadMAP;
@@ -134,6 +464,45 @@
 			productReference = AA113CEA211E43B9002F5D92 /* LoadMAPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AA397D05211E46BE008D9B8F /* LoadMAPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA397D1D211E46BF008D9B8F /* Build configuration list for PBXNativeTarget "LoadMAPKit" */;
+			buildPhases = (
+				AA397D01211E46BE008D9B8F /* Sources */,
+				AA397D02211E46BE008D9B8F /* Frameworks */,
+				AA397D03211E46BE008D9B8F /* Headers */,
+				AA397D04211E46BE008D9B8F /* Resources */,
+				AA397D3F211E719A008D9B8F /* Run Script - carthage copy-frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoadMAPKit;
+			productName = LoadMAPKit;
+			productReference = AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA397D0D211E46BF008D9B8F /* LoadMAPKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA397D21211E46BF008D9B8F /* Build configuration list for PBXNativeTarget "LoadMAPKitTests" */;
+			buildPhases = (
+				AA397D0A211E46BF008D9B8F /* Sources */,
+				AA397D0B211E46BF008D9B8F /* Frameworks */,
+				AA397D0C211E46BF008D9B8F /* Resources */,
+				AA397D61211E978B008D9B8F /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA397D11211E46BF008D9B8F /* PBXTargetDependency */,
+				AA397D13211E46BF008D9B8F /* PBXTargetDependency */,
+			);
+			name = LoadMAPKitTests;
+			productName = LoadMAPKitTests;
+			productReference = AA397D0E211E46BF008D9B8F /* LoadMAPKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +518,12 @@
 					AA113CE9211E43B9002F5D92 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = AA113CD5211E43B4002F5D92;
+					};
+					AA397D05211E46BE008D9B8F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AA397D0D211E46BF008D9B8F = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
@@ -167,6 +542,8 @@
 			targets = (
 				AA113CD5211E43B4002F5D92 /* LoadMAP */,
 				AA113CE9211E43B9002F5D92 /* LoadMAPUITests */,
+				AA397D05211E46BE008D9B8F /* LoadMAPKit */,
+				AA397D0D211E46BF008D9B8F /* LoadMAPKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -189,14 +566,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA397D04211E46BE008D9B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA397D43211E740D008D9B8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D0C211E46BF008D9B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA397D3F211E719A008D9B8F /* Run Script - carthage copy-frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			name = "Run Script - carthage copy-frameworks";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Realm.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA113CD2211E43B4002F5D92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA113CDC211E43B4002F5D92 /* ViewController.swift in Sources */,
 				AA113CDA211E43B4002F5D92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +626,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA397D01211E46BE008D9B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA397D51211E7AEB008D9B8F /* TargetEntity.swift in Sources */,
+				AA397D33211E598D008D9B8F /* MapToolbar.swift in Sources */,
+				AA397D34211E5991008D9B8F /* MapViewController.swift in Sources */,
+				AA397D58211E7E35008D9B8F /* TargetListViewModel.swift in Sources */,
+				AA397D56211E7D96008D9B8F /* TargetRepository.swift in Sources */,
+				AA397D32211E5986008D9B8F /* Appliable.swift in Sources */,
+				AA397D47211E75E3008D9B8F /* TargetListViewController.swift in Sources */,
+				AA397D5A211E7FD9008D9B8F /* ApplicationError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA397D0A211E46BF008D9B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA397D16211E46BF008D9B8F /* LoadMAPKitTests.swift in Sources */,
+				AA397D60211E9699008D9B8F /* TargetListViewModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -216,6 +657,21 @@
 			isa = PBXTargetDependency;
 			target = AA113CD5211E43B4002F5D92 /* LoadMAP */;
 			targetProxy = AA113CEB211E43B9002F5D92 /* PBXContainerItemProxy */;
+		};
+		AA397D11211E46BF008D9B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA397D05211E46BE008D9B8F /* LoadMAPKit */;
+			targetProxy = AA397D10211E46BF008D9B8F /* PBXContainerItemProxy */;
+		};
+		AA397D13211E46BF008D9B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA113CD5211E43B4002F5D92 /* LoadMAP */;
+			targetProxy = AA397D12211E46BF008D9B8F /* PBXContainerItemProxy */;
+		};
+		AA397D1A211E46BF008D9B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA397D05211E46BE008D9B8F /* LoadMAPKit */;
+			targetProxy = AA397D19211E46BF008D9B8F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -356,6 +812,7 @@
 		AA113CF4211E43B9002F5D92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoadMAP/Info.plist;
@@ -373,6 +830,7 @@
 		AA113CF5211E43B9002F5D92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoadMAP/Info.plist;
@@ -425,6 +883,112 @@
 			};
 			name = Release;
 		};
+		AA397D1E211E46BF008D9B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LoadMAPKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ynagai.LoadMAPKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA397D1F211E46BF008D9B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LoadMAPKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ynagai.LoadMAPKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA397D22211E46BF008D9B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LoadMAPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ynagai.LoadMAPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA397D23211E46BF008D9B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LoadMAPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ynagai.LoadMAPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,6 +1015,24 @@
 			buildConfigurations = (
 				AA113CF7211E43B9002F5D92 /* Debug */,
 				AA113CF8211E43B9002F5D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA397D1D211E46BF008D9B8F /* Build configuration list for PBXNativeTarget "LoadMAPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA397D1E211E46BF008D9B8F /* Debug */,
+				AA397D1F211E46BF008D9B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA397D21211E46BF008D9B8F /* Build configuration list for PBXNativeTarget "LoadMAPKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA397D22211E46BF008D9B8F /* Debug */,
+				AA397D23211E46BF008D9B8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
