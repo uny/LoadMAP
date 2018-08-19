@@ -12,6 +12,11 @@
 		AA113CE1211E43B8002F5D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA113CE0211E43B8002F5D92 /* Assets.xcassets */; };
 		AA113CE4211E43B8002F5D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA113CE2211E43B8002F5D92 /* LaunchScreen.storyboard */; };
 		AA113CEF211E43B9002F5D92 /* LoadMAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA113CEE211E43B9002F5D92 /* LoadMAPUITests.swift */; };
+		AA3228F62129263100E3BED7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3228F52129263100E3BED7 /* UIColorExtension.swift */; };
+		AA3228F8212928CA00E3BED7 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3228F7212928CA00E3BED7 /* PlaceViewController.swift */; };
+		AA3228FB21292A3F00E3BED7 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3228FA21292A3F00E3BED7 /* PlaceView.swift */; };
+		AA3228FD21292BD900E3BED7 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3228FC21292BD900E3BED7 /* PlaceViewModel.swift */; };
+		AA3228FF21292E5600E3BED7 /* PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3228FE21292E5600E3BED7 /* PropertyList.swift */; };
 		AA397D0F211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */; };
 		AA397D16211E46BF008D9B8F /* LoadMAPKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D15211E46BF008D9B8F /* LoadMAPKitTests.swift */; };
 		AA397D18211E46BF008D9B8F /* LoadMAPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA397D08211E46BF008D9B8F /* LoadMAPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +44,18 @@
 		AA397D69211E9819008D9B8F /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D67211E9818008D9B8F /* RxBlocking.framework */; };
 		AA397D6E211E9CF3008D9B8F /* RxTest.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D66211E9818008D9B8F /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AA397D6F211E9D0A008D9B8F /* RxBlocking.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D67211E9818008D9B8F /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA397D73211EAFD8008D9B8F /* UUIDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D72211EAFD8008D9B8F /* UUIDGenerator.swift */; };
+		AA397D75211EB1E3008D9B8F /* DateGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D74211EB1E3008D9B8F /* DateGenerator.swift */; };
+		AA397D78211EB2D3008D9B8F /* TargetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D77211EB2D3008D9B8F /* TargetListView.swift */; };
+		AA397D7B211EB4FB008D9B8F /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D7A211EB4FB008D9B8F /* UICollectionViewExtension.swift */; };
+		AA397D7D211EC33C008D9B8F /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D7C211EC33C008D9B8F /* UserDefaultsExtension.swift */; };
+		AA397D7F211EDD0E008D9B8F /* PlaceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D7E211EDD0E008D9B8F /* PlaceEntity.swift */; };
+		AA397D82211EE085008D9B8F /* PlaceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA397D81211EE085008D9B8F /* PlaceRepository.swift */; };
+		AA397D832123EB00008D9B8F /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D39211E7179008D9B8F /* Realm.framework */; };
+		AA397D842123EB00008D9B8F /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA397D38211E7179008D9B8F /* RealmSwift.framework */; };
+		AAF887E821255463004EB703 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF887E721255463004EB703 /* WebService.swift */; };
+		AAF887EF2127D5FA004EB703 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF887EE2127D5FA004EB703 /* JSON.swift */; };
+		AAF887F12129117E004EB703 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF887F02129117E004EB703 /* MapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +129,11 @@
 		AA113CEA211E43B9002F5D92 /* LoadMAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadMAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA113CEE211E43B9002F5D92 /* LoadMAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMAPUITests.swift; sourceTree = "<group>"; };
 		AA113CF0211E43B9002F5D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3228F52129263100E3BED7 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		AA3228F7212928CA00E3BED7 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		AA3228FA21292A3F00E3BED7 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		AA3228FC21292BD900E3BED7 /* PlaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
+		AA3228FE21292E5600E3BED7 /* PropertyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyList.swift; sourceTree = "<group>"; };
 		AA397D06211E46BE008D9B8F /* LoadMAPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoadMAPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA397D08211E46BF008D9B8F /* LoadMAPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadMAPKit.h; sourceTree = "<group>"; };
 		AA397D09211E46BF008D9B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,6 +156,16 @@
 		AA397D5F211E9699008D9B8F /* TargetListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListViewModelTest.swift; sourceTree = "<group>"; };
 		AA397D66211E9818008D9B8F /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		AA397D67211E9818008D9B8F /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		AA397D72211EAFD8008D9B8F /* UUIDGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDGenerator.swift; sourceTree = "<group>"; };
+		AA397D74211EB1E3008D9B8F /* DateGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateGenerator.swift; sourceTree = "<group>"; };
+		AA397D77211EB2D3008D9B8F /* TargetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListView.swift; sourceTree = "<group>"; };
+		AA397D7A211EB4FB008D9B8F /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		AA397D7C211EC33C008D9B8F /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		AA397D7E211EDD0E008D9B8F /* PlaceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceEntity.swift; sourceTree = "<group>"; };
+		AA397D81211EE085008D9B8F /* PlaceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceRepository.swift; sourceTree = "<group>"; };
+		AAF887E721255463004EB703 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		AAF887EE2127D5FA004EB703 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		AAF887F02129117E004EB703 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA397D1B211E46BF008D9B8F /* LoadMAPKit.framework in Frameworks */,
+				AA397D832123EB00008D9B8F /* Realm.framework in Frameworks */,
+				AA397D842123EB00008D9B8F /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +254,15 @@
 			path = LoadMAPUITests;
 			sourceTree = "<group>";
 		};
+		AA3228F9212928D300E3BED7 /* Place */ = {
+			isa = PBXGroup;
+			children = (
+				AA3228F7212928CA00E3BED7 /* PlaceViewController.swift */,
+				AA3228FC21292BD900E3BED7 /* PlaceViewModel.swift */,
+			);
+			path = Place;
+			sourceTree = "<group>";
+		};
 		AA397D07211E46BF008D9B8F /* LoadMAPKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +288,8 @@
 		AA397D24211E46E1008D9B8F /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				AA397D80211EDDDA008D9B8F /* DependencyInjection */,
+				AA397D79211EB4EC008D9B8F /* Extensions */,
 				AA397D2B211E5485008D9B8F /* Protocols */,
 			);
 			path = Application;
@@ -255,6 +300,7 @@
 			children = (
 				AA397D2E211E55A7008D9B8F /* Atoms */,
 				AA397D2F211E55AC008D9B8F /* Molecules */,
+				AA397D76211EB2C3008D9B8F /* Templates */,
 				AA397D28211E47F2008D9B8F /* Pages */,
 			);
 			path = Presentation;
@@ -263,7 +309,9 @@
 		AA397D26211E46F0008D9B8F /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				AA397D4C211E7AA3008D9B8F /* Entities */,
+				AAF887ED2127D5F3004EB703 /* Models */,
+				AAF887E521255437004EB703 /* Database */,
+				AAF887E421255410004EB703 /* Web */,
 				AA397D54211E7D89008D9B8F /* Repositories */,
 			);
 			path = Infrastructure;
@@ -280,8 +328,9 @@
 		AA397D28211E47F2008D9B8F /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				AA397D49211E7879008D9B8F /* TargetList */,
+				AA3228F9212928D300E3BED7 /* Place */,
 				AA397D48211E786E008D9B8F /* Map */,
+				AA397D49211E7879008D9B8F /* TargetList */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -345,6 +394,7 @@
 			isa = PBXGroup;
 			children = (
 				AA397D29211E47FB008D9B8F /* MapViewController.swift */,
+				AAF887F02129117E004EB703 /* MapViewModel.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -362,6 +412,7 @@
 			isa = PBXGroup;
 			children = (
 				AA397D50211E7AEB008D9B8F /* TargetEntity.swift */,
+				AA397D7E211EDD0E008D9B8F /* PlaceEntity.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -370,6 +421,7 @@
 			isa = PBXGroup;
 			children = (
 				AA397D55211E7D96008D9B8F /* TargetRepository.swift */,
+				AA397D81211EE085008D9B8F /* PlaceRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -413,6 +465,75 @@
 			path = TestHelpers;
 			sourceTree = "<group>";
 		};
+		AA397D76211EB2C3008D9B8F /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D77211EB2D3008D9B8F /* TargetListView.swift */,
+				AA3228FA21292A3F00E3BED7 /* PlaceView.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		AA397D79211EB4EC008D9B8F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D7A211EB4FB008D9B8F /* UICollectionViewExtension.swift */,
+				AA397D7C211EC33C008D9B8F /* UserDefaultsExtension.swift */,
+				AA3228F52129263100E3BED7 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA397D80211EDDDA008D9B8F /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D72211EAFD8008D9B8F /* UUIDGenerator.swift */,
+				AA397D74211EB1E3008D9B8F /* DateGenerator.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		AAF887E421255410004EB703 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				AAF887E92127D272004EB703 /* Requests */,
+				AAF887EA2127D279004EB703 /* Responses */,
+				AAF887E721255463004EB703 /* WebService.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		AAF887E521255437004EB703 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				AA397D4C211E7AA3008D9B8F /* Entities */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		AAF887E92127D272004EB703 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		AAF887EA2127D279004EB703 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		AAF887ED2127D5F3004EB703 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAF887EE2127D5FA004EB703 /* JSON.swift */,
+				AA3228FE21292E5600E3BED7 /* PropertyList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -435,6 +556,7 @@
 				AA113CD3211E43B4002F5D92 /* Frameworks */,
 				AA113CD4211E43B4002F5D92 /* Resources */,
 				AA397D20211E46BF008D9B8F /* Embed Frameworks */,
+				AA397D852123EB2F008D9B8F /* Run Script - carthage copy-frameworks */,
 			);
 			buildRules = (
 			);
@@ -472,7 +594,6 @@
 				AA397D02211E46BE008D9B8F /* Frameworks */,
 				AA397D03211E46BE008D9B8F /* Headers */,
 				AA397D04211E46BE008D9B8F /* Resources */,
-				AA397D3F211E719A008D9B8F /* Run Script - carthage copy-frameworks */,
 			);
 			buildRules = (
 			);
@@ -584,23 +705,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AA397D3F211E719A008D9B8F /* Run Script - carthage copy-frameworks */ = {
+		AA397D852123EB2F008D9B8F /* Run Script - carthage copy-frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 			);
 			name = "Run Script - carthage copy-frameworks";
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Realm.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RealmSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -630,14 +751,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA397D7F211EDD0E008D9B8F /* PlaceEntity.swift in Sources */,
 				AA397D51211E7AEB008D9B8F /* TargetEntity.swift in Sources */,
+				AA397D78211EB2D3008D9B8F /* TargetListView.swift in Sources */,
+				AA397D82211EE085008D9B8F /* PlaceRepository.swift in Sources */,
+				AA3228F62129263100E3BED7 /* UIColorExtension.swift in Sources */,
 				AA397D33211E598D008D9B8F /* MapToolbar.swift in Sources */,
 				AA397D34211E5991008D9B8F /* MapViewController.swift in Sources */,
+				AA397D7B211EB4FB008D9B8F /* UICollectionViewExtension.swift in Sources */,
+				AA3228F8212928CA00E3BED7 /* PlaceViewController.swift in Sources */,
+				AA3228FB21292A3F00E3BED7 /* PlaceView.swift in Sources */,
+				AA3228FF21292E5600E3BED7 /* PropertyList.swift in Sources */,
 				AA397D58211E7E35008D9B8F /* TargetListViewModel.swift in Sources */,
 				AA397D56211E7D96008D9B8F /* TargetRepository.swift in Sources */,
 				AA397D32211E5986008D9B8F /* Appliable.swift in Sources */,
+				AAF887E821255463004EB703 /* WebService.swift in Sources */,
+				AA3228FD21292BD900E3BED7 /* PlaceViewModel.swift in Sources */,
 				AA397D47211E75E3008D9B8F /* TargetListViewController.swift in Sources */,
+				AA397D75211EB1E3008D9B8F /* DateGenerator.swift in Sources */,
+				AA397D73211EAFD8008D9B8F /* UUIDGenerator.swift in Sources */,
+				AAF887EF2127D5FA004EB703 /* JSON.swift in Sources */,
 				AA397D5A211E7FD9008D9B8F /* ApplicationError.swift in Sources */,
+				AA397D7D211EC33C008D9B8F /* UserDefaultsExtension.swift in Sources */,
+				AAF887F12129117E004EB703 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,6 +951,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LoadMAP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -833,6 +973,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LoadMAP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
