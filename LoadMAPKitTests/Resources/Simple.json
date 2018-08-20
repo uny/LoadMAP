@@ -1,0 +1,6 @@
+{
+    "string": "string",
+    "integer": 123,
+    "double": 1.23,
+    "array": [1, 2, 3]
+}

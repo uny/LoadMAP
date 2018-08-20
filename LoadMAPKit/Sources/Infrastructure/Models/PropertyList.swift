@@ -16,7 +16,25 @@ struct PropertyList {
         self.object = object
     }
     
-    var stringDictionary: [String: String] {
-        return self.object as? [String: String] ?? [:]
+    subscript(key: String) -> PropertyList {
+        guard let object = object as? [String: Any] else { return PropertyList(object: nil) }
+        return PropertyList(object: object[key])
+    }
+    
+    var url: URL? {
+        if let string = self.string {
+            return URL(string: string)
+        } else {
+            return nil
+        }
+    }
+    
+    var string: String? {
+        return self.object as? String
+    }
+    
+    var dictionary: [String: Any] {
+        // TODO: url, string, int, double, ...
+        return self.object as? [String: Any] ?? [:]
     }
 }
