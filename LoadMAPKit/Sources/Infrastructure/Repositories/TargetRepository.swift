@@ -22,7 +22,7 @@ final class TargetRepository: TargetRepositoryProtocol {
         self.webService = webService
     }
     
-    func refresh(target: TargetEntity) -> Completable {
+    func refresh(target: TargetEntity) -> RxSwift.Completable {
         let id: String = {
             if target.id.isEmpty {
                 return self.uuidGenerator.generate()
@@ -81,7 +81,7 @@ final class TargetRepository: TargetRepositoryProtocol {
         }.debug()
     }
     
-    func delete(reference: ThreadSafeReference<TargetEntity>) {
+    func delete(reference: RealmSwift.ThreadSafeReference<TargetEntity>) {
         let realm = try! Realm()
         guard let entity = realm.resolve(reference) else { return }
         try! realm.write {

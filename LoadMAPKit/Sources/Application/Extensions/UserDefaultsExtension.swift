@@ -1,15 +1,21 @@
 import Foundation
 
-enum UserDefaultsKey: String {
-    case currentTargetId = "currentTargetId"
+enum UserDefaultsKey {
+    case currentTargetId
+    
+    var stringKey: String {
+        switch self {
+        case .currentTargetId: return "currentTargetId"
+        }
+    }
 }
 
 extension UserDefaults {
     func string(forKey key: UserDefaultsKey) -> String? {
-        return self.string(forKey: key.rawValue)
+        return self.string(forKey: key.stringKey)
     }
     
     func set(_ string: String, forKey key: UserDefaultsKey) {
-        self.set(string, forKey: key.rawValue)
+        self.set(string, forKey: key.stringKey)
     }
 }
